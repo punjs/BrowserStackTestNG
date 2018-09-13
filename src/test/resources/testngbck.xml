@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite" thread-count="3" parallel ="tests" >
+
+  
+  <test name="ChromeTest">
+  <parameter name="browser" value="chrome" />
+  <classes>
+      <class name="com.ddfw.punj.testcases.TestCaseA"/>
+    </classes>
+  </test>
+  
+    <test name="FirefoxTest">
+  <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="com.ddfw.punj.testcases.TestCaseA"/>
+    </classes>
+  </test>
+  
+  <test name="EdgeTest">
+  <parameter name="browser" value="Edge" />  
+    <classes>
+      <class name="com.ddfw.punj.testcases.TestCaseA"/>
+    </classes>
+  </test>
+  
+
+</suite> <!-- Suite -->

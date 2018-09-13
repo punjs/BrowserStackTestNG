@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite" thread-count="3" parallel ="tests" >
+
+  
+  <test name="TestCaseB">
+  <classes>
+      <class name="com.ddfw.punj.testcases.TestCaseB"/>
+    </classes>
+  </test>
+  
+    <test name="TestCaseC">
+    <classes>
+      <class name="com.ddfw.punj.testcases.TestCaseC"/>
+    </classes>
+  </test>
+  
+
+  
+  
+  <test name="TestCaseD"> 
+    <classes>
+      <class name="com.ddfw.punj.testcases.TestCaseD"/>
+    </classes>
+  </test>
+  
+
+</suite> <!-- Suite -->
