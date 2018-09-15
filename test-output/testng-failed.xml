@@ -2,36 +2,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="3" name="Failed suite [My Sample Suite]" parallel="tests">
   <parameter name="browser" value="Edge"/>
-  <test name="EdgeTest(failed)" parallel="tests">
-    <parameter name="browser" value="Edge"/>
-    <classes>
-      <class name="com.ddfw.punj.testcases.TestCaseA">
-        <methods>
-          <include name="test4"/>
-          <include name="setup"/>
-          <include name="setup"/>
-          <include name="setup"/>
-          <include name="terminate"/>
-          <include name="terminate"/>
-          <include name="terminate"/>
-          <include name="extentquit"/>
-        </methods>
-      </class> <!-- com.ddfw.punj.testcases.TestCaseA -->
-    </classes>
-  </test> <!-- EdgeTest(failed) -->
   <test name="ChromeTest(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.ddfw.punj.testcases.TestCaseA">
         <methods>
+          <include name="test1"/>
           <include name="test4"/>
           <include name="setup"/>
           <include name="setup"/>
           <include name="setup"/>
-          <include name="terminate"/>
-          <include name="terminate"/>
-          <include name="terminate"/>
-          <include name="extentquit"/>
+          <include name="test2"/>
+          <include name="test3"/>
         </methods>
       </class> <!-- com.ddfw.punj.testcases.TestCaseA -->
     </classes>
@@ -41,16 +23,31 @@
     <classes>
       <class name="com.ddfw.punj.testcases.TestCaseA">
         <methods>
+          <include name="test1"/>
           <include name="test4"/>
           <include name="setup"/>
           <include name="setup"/>
           <include name="setup"/>
-          <include name="terminate"/>
-          <include name="terminate"/>
-          <include name="terminate"/>
-          <include name="extentquit"/>
+          <include name="test2"/>
+          <include name="test3"/>
         </methods>
       </class> <!-- com.ddfw.punj.testcases.TestCaseA -->
     </classes>
   </test> <!-- FirefoxTest(failed) -->
+  <test name="EdgeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.ddfw.punj.testcases.TestCaseA">
+        <methods>
+          <include name="test1"/>
+          <include name="test4"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="test2"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- com.ddfw.punj.testcases.TestCaseA -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
 </suite> <!-- Failed suite [My Sample Suite] -->

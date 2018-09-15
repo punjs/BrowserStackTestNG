@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 //import org.testng.annotations.AfterMethod;
@@ -22,7 +24,7 @@ import com.ddfw.punj.base.BaseTest;
 //import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 //import com.relevantcodes.extentreports.model.Log;
-
+import java.net.URL;
 public class TestCaseA extends BaseTest {
 
 	public WebDriver driver;
@@ -34,8 +36,10 @@ public class TestCaseA extends BaseTest {
 	 */
 	
 
-	
-	
+	 //public static final String USERNAME = "sel67";
+	  //public static final String AUTOMATE_KEY = "7YqmcexiSNqJjLzEmJm3";
+	  //public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
+	DesiredCapabilities caps = new DesiredCapabilities();
 	
 	@BeforeTest
 	@Parameters("browser")
@@ -47,17 +51,42 @@ public class TestCaseA extends BaseTest {
 			test = rep.startTest("firefox");
 			
 		//create firefox instance
-			System.setProperty("webdriver.gecko.driver", "C:\\Web_Drivers\\geckodriver.exe");
-			driver = new FirefoxDriver();
+			//System.setProperty("webdriver.gecko.driver", "C:\\Web_Drivers\\geckodriver.exe");
+			//driver = new FirefoxDriver();
+			
+			caps.setCapability("os", "Windows");
+			caps.setCapability("os_version", "8");
+			caps.setCapability("browser", "Firefox");
+			caps.setCapability("browser_version", "60.0");
+			caps.setCapability("browserstack.local", "false");
+			caps.setCapability("browserstack.selenium_version", "3.5.2");
+			caps.setCapability("browserstack.debug", "true");
+			driver = new RemoteWebDriver(
+				    new URL("https://sel67:7YqmcexiSNqJjLzEmJm3@hub-cloud.browserstack.com/wd/hub"),
+				    DesiredCapabilities.firefox()
+				  );
 		}
 		//Check if parameter passed as 'chrome'
 		else if(browser.equalsIgnoreCase("chrome")){
 			Thread.sleep(1000);
 			//set path to chromedriver.exe
 			test = rep.startTest("chrome");
-			System.setProperty("webdriver.chrome.driver","C:\\Web_Drivers\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver","C:\\Web_Drivers\\chromedriver.exe");
 			//create chrome instance
-			driver = new ChromeDriver();
+			
+			caps.setCapability("os", "Windows");
+			caps.setCapability("os_version", "7");
+			caps.setCapability("browser", "Chrome");
+			caps.setCapability("browser_version", "65.0");
+			caps.setCapability("browserstack.local", "false");
+			caps.setCapability("browserstack.selenium_version", "3.5.2");
+			caps.setCapability("browserstack.debug", "true");
+
+			driver = new RemoteWebDriver(
+				    new URL("https://sel67:7YqmcexiSNqJjLzEmJm3@hub-cloud.browserstack.com/wd/hub"),
+				    DesiredCapabilities.chrome()
+				  );
+			//driver = new ChromeDriver();
 			driver.manage().window().maximize();
 		}
 		//Check if parameter passed as 'Edge'
@@ -65,9 +94,23 @@ public class TestCaseA extends BaseTest {
 					Thread.sleep(3000);
 					test = rep.startTest("Edge");
 					//set path to Edge.exe
-					System.setProperty("webdriver.edge.driver","C:\\Web_Drivers\\MicrosoftWebDriver.exe");
+					//System.setProperty("webdriver.edge.driver","C:\\Web_Drivers\\MicrosoftWebDriver.exe");
 					//create Edge instance
-					driver = new EdgeDriver();
+					//driver = new EdgeDriver();
+					caps.setCapability("os", "Windows");
+					caps.setCapability("os_version", "10");
+					caps.setCapability("browser", "Edge");
+					caps.setCapability("browser_version", "16.0");
+					caps.setCapability("browserstack.local", "false");
+					caps.setCapability("browserstack.selenium_version", "3.5.2");
+					caps.setCapability("browserstack.debug", "true");
+					
+
+					driver = new RemoteWebDriver(
+						    new URL("https://sel67:7YqmcexiSNqJjLzEmJm3@hub-cloud.browserstack.com/wd/hub"),
+						    DesiredCapabilities.edge()
+						  );
+					
 				}
 		else{
 			//If no browser passed throw exception

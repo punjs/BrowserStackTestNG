@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="My Sample Suite" duration-ms="67707" started-at="2018-09-13T11:09:24Z" finished-at="2018-09-13T11:10:32Z">
+  <suite name="My Sample Suite" duration-ms="76670" started-at="2018-09-14T09:44:32Z" finished-at="2018-09-14T09:45:48Z">
     <groups>
     </groups>
-    <test name="EdgeTest" duration-ms="60649" started-at="2018-09-13T11:09:24Z" finished-at="2018-09-13T11:10:25Z">
+    <test name="EdgeTest" duration-ms="62998" started-at="2018-09-14T09:44:32Z" finished-at="2018-09-14T09:45:35Z">
       <class name="com.ddfw.punj.testcases.TestCaseA">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@3043fe0e]" name="setup" is-config="true" duration-ms="4453" started-at="2018-09-13T21:09:24Z" finished-at="2018-09-13T21:09:28Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@4d50efb8]" name="setup" is-config="true" duration-ms="9985" started-at="2018-09-14T19:44:32Z" finished-at="2018-09-14T19:44:42Z">
           <params>
             <param index="0">
               <value>
@@ -18,70 +18,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@3043fe0e]" name="test1" duration-ms="12547" started-at="2018-09-13T21:09:28Z" finished-at="2018-09-13T21:09:41Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@4d50efb8]" name="test1" duration-ms="9880" started-at="2018-09-14T19:44:42Z" finished-at="2018-09-14T19:44:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@3043fe0e]" name="test2" duration-ms="15981" started-at="2018-09-13T21:09:41Z" finished-at="2018-09-13T21:09:57Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@4d50efb8]" name="test2" duration-ms="13678" started-at="2018-09-14T19:44:52Z" finished-at="2018-09-14T19:45:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@3043fe0e]" name="test3" duration-ms="12251" started-at="2018-09-13T21:09:57Z" finished-at="2018-09-13T21:10:09Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@4d50efb8]" name="test3" duration-ms="9798" started-at="2018-09-14T19:45:05Z" finished-at="2018-09-14T19:45:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@3043fe0e]" name="test4" duration-ms="8323" started-at="2018-09-13T21:10:09Z" finished-at="2018-09-13T21:10:18Z">
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@4d50efb8]" name="test4" duration-ms="5938" started-at="2018-09-14T19:45:15Z" finished-at="2018-09-14T19:45:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@3043fe0e]" name="terminate" is-config="true" duration-ms="7068" started-at="2018-09-13T21:10:18Z" finished-at="2018-09-13T21:10:25Z">
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@4d50efb8]" name="terminate" is-config="true" duration-ms="13667" started-at="2018-09-14T19:45:21Z" finished-at="2018-09-14T19:45:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
-        <test-method status="PASS" signature="extentquit()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@3043fe0e]" name="extentquit" is-config="true" duration-ms="233" started-at="2018-09-13T21:10:32Z" finished-at="2018-09-13T21:10:32Z">
+        <test-method status="PASS" signature="extentquit()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@4d50efb8]" name="extentquit" is-config="true" duration-ms="322" started-at="2018-09-14T19:45:48Z" finished-at="2018-09-14T19:45:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentquit -->
       </class> <!-- com.ddfw.punj.testcases.TestCaseA -->
     </test> <!-- EdgeTest -->
-    <test name="ChromeTest" duration-ms="64502" started-at="2018-09-13T11:09:24Z" finished-at="2018-09-13T11:10:28Z">
+    <test name="FirefoxTest" duration-ms="66875" started-at="2018-09-14T09:44:32Z" finished-at="2018-09-14T09:45:39Z">
       <class name="com.ddfw.punj.testcases.TestCaseA">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@56aac163]" name="setup" is-config="true" duration-ms="5105" started-at="2018-09-13T21:09:24Z" finished-at="2018-09-13T21:09:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@56aac163]" name="test1" duration-ms="19799" started-at="2018-09-13T21:09:29Z" finished-at="2018-09-13T21:09:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@56aac163]" name="test2" duration-ms="15687" started-at="2018-09-13T21:09:49Z" finished-at="2018-09-13T21:10:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@56aac163]" name="test3" duration-ms="16085" started-at="2018-09-13T21:10:05Z" finished-at="2018-09-13T21:10:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@56aac163]" name="test4" duration-ms="7120" started-at="2018-09-13T21:10:21Z" finished-at="2018-09-13T21:10:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@56aac163]" name="terminate" is-config="true" duration-ms="692" started-at="2018-09-13T21:10:28Z" finished-at="2018-09-13T21:10:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- terminate -->
-      </class> <!-- com.ddfw.punj.testcases.TestCaseA -->
-    </test> <!-- ChromeTest -->
-    <test name="FirefoxTest" duration-ms="67707" started-at="2018-09-13T11:09:24Z" finished-at="2018-09-13T11:10:32Z">
-      <class name="com.ddfw.punj.testcases.TestCaseA">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@30a3107a]" name="setup" is-config="true" duration-ms="14253" started-at="2018-09-13T21:09:24Z" finished-at="2018-09-13T21:09:38Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@480bdb19]" name="setup" is-config="true" duration-ms="15972" started-at="2018-09-14T19:44:32Z" finished-at="2018-09-14T19:44:48Z">
           <params>
             <param index="0">
               <value>
@@ -92,27 +57,62 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@30a3107a]" name="test1" duration-ms="15797" started-at="2018-09-13T21:09:38Z" finished-at="2018-09-13T21:09:54Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@480bdb19]" name="test1" duration-ms="10568" started-at="2018-09-14T19:44:48Z" finished-at="2018-09-14T19:44:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@30a3107a]" name="test2" duration-ms="15860" started-at="2018-09-13T21:09:54Z" finished-at="2018-09-13T21:10:10Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@480bdb19]" name="test2" duration-ms="14087" started-at="2018-09-14T19:44:58Z" finished-at="2018-09-14T19:45:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@30a3107a]" name="test3" duration-ms="12593" started-at="2018-09-13T21:10:10Z" finished-at="2018-09-13T21:10:22Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@480bdb19]" name="test3" duration-ms="10138" started-at="2018-09-14T19:45:12Z" finished-at="2018-09-14T19:45:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@30a3107a]" name="test4" duration-ms="6487" started-at="2018-09-13T21:10:22Z" finished-at="2018-09-13T21:10:29Z">
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@480bdb19]" name="test4" duration-ms="5625" started-at="2018-09-14T19:45:22Z" finished-at="2018-09-14T19:45:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@30a3107a]" name="terminate" is-config="true" duration-ms="2705" started-at="2018-09-13T21:10:29Z" finished-at="2018-09-13T21:10:32Z">
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@480bdb19]" name="terminate" is-config="true" duration-ms="10474" started-at="2018-09-14T19:45:28Z" finished-at="2018-09-14T19:45:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
       </class> <!-- com.ddfw.punj.testcases.TestCaseA -->
     </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="76670" started-at="2018-09-14T09:44:32Z" finished-at="2018-09-14T09:45:48Z">
+      <class name="com.ddfw.punj.testcases.TestCaseA">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@15d0c81b]" name="setup" is-config="true" duration-ms="13568" started-at="2018-09-14T19:44:32Z" finished-at="2018-09-14T19:44:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@15d0c81b]" name="test1" duration-ms="13924" started-at="2018-09-14T19:44:45Z" finished-at="2018-09-14T19:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@15d0c81b]" name="test2" duration-ms="16706" started-at="2018-09-14T19:44:59Z" finished-at="2018-09-14T19:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@15d0c81b]" name="test3" duration-ms="12917" started-at="2018-09-14T19:45:16Z" finished-at="2018-09-14T19:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@15d0c81b]" name="test4" duration-ms="8473" started-at="2018-09-14T19:45:29Z" finished-at="2018-09-14T19:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.ddfw.punj.testcases.TestCaseA@15d0c81b]" name="terminate" is-config="true" duration-ms="11067" started-at="2018-09-14T19:45:37Z" finished-at="2018-09-14T19:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.ddfw.punj.testcases.TestCaseA -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- My Sample Suite -->
 </testng-results>
